@@ -46,6 +46,15 @@ class Student{
 
     public Student(){};
 
+//    *** bydefault constructor ***
+//    constructor with default value to the reference variable
+
+//    public Student(){
+//        this.rollno = 0;
+//        this.name = "Unknown";
+//        this.marks = Integer.MAX_VALUE;
+//    }
+
     public Student(int rollno, String name, float marks){
         this.rollno = rollno;
         this.name = name;
