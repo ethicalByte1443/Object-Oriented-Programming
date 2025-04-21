@@ -34,6 +34,26 @@ public class first {
         seema.greetings();
         seema.changeName("Bachcha");
         seema.greetings();
+
+
+        Student ravi = new Student();
+        System.out.println(ravi.name);              // unknown
+
+
+
+
+//      one ---- one(in heap) and two ----one(in heap)
+        Student one = new Student();
+        Student two = one;
+
+        one.name = "Changed";
+        System.out.println(two.name);           // Changed
+
+
+
+
+//        WRAPPER CLASS
+
     }
 }
 
