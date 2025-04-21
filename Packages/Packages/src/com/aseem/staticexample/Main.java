@@ -5,5 +5,6 @@ public class Main {
         human aseem = new human(21, "Aseem", 6, 50000);
         human aryan = new human(20, "aryan", 6, 1000000);
         System.out.println(human.population);
+        System.out.println("**************");
     }
 }
