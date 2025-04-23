@@ -14,7 +14,7 @@ public class example
 
     public static void main(String[] args) {
         System.out.println("The 'i' variable is not incremented here, it still shows '0' ,  'i' is: " + i);  // line 14
-//        example x = new example();
-//        System.out.println(x.i);
+        example x = new example();
+        System.out.println(x.i);
     }
 }
