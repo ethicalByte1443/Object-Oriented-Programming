@@ -18,5 +18,6 @@ public class example
         System.out.println(x.i);
         System.out.println(i);
         System.out.println(example.i);
+        System.out.println("NO error is caused using it 3 ways");
     }
 }
