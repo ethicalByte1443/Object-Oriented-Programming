@@ -19,6 +19,12 @@ public class box {
         this.h = h;
     }
 
+    public void information(){
+        System.out.println("Length : " + this.l);
+        System.out.println("Breadth : " + this.b);
+        System.out.println("Height : " + this.h);
+    }
+
 //    cube
     box (double side){
         System.out.println("Cube");

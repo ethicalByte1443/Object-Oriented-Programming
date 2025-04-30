@@ -1,7 +1,19 @@
 package com.aseem.inheritanceAndPolymorphism.com.aseem.Inheritance;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("hello");
+//        box box1 = new box(2,3,4);
+//        box1.information();
+//        box box1_copy = new box(box1);
+//        box1_copy.information();
+
+//        using boxWeight
+
+        boxWeight box2 = new boxWeight(2, 3, 4, 5);
+        box2.information();
+
+        boxWeight box3 = new boxWeight();
+        box3.information();
     }
 }
