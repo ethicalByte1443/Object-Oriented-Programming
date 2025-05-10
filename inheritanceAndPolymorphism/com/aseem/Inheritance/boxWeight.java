@@ -27,6 +27,6 @@ public class boxWeight extends box{
     public void information() {
         super.information();
         System.out.println("Weight : "+ this.weight);
-        System.out.println(" **************** ");
+
     }
 }
