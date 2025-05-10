@@ -1,9 +1,9 @@
 package com.aseem.inheritanceAndPolymorphism.com.aseem.Inheritance;
 
 public class box {
-    double l;
-    double b;
-    double h;
+    private double l;
+    private double b;
+    private double h;
 
     box () {
         this.l = -1;

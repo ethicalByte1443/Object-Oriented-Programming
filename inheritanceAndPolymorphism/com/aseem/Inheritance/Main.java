@@ -10,10 +10,10 @@ public class Main {
 
 //        using boxWeight
 
-        boxWeight box2 = new boxWeight(2, 3, 4, 5);
-        box2.information();
+//        boxWeight box2 = new boxWeight(2, 3, 4, 5);
+//        box2.information();
 
-        boxWeight box3 = new boxWeight();
+        boxWeight box3 = new boxWeight(1,2,3,4);
         box3.information();
     }
 }
