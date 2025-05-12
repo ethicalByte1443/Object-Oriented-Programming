@@ -16,7 +16,11 @@ public class Main {
 //        boxWeight box3 = new boxWeight(1,2,3,4);
 //        box3.information();
 
-        boxweightcolor box1 = new boxweightcolor("Blue");
+//        boxweightcolor box1 = new boxweightcolor("Blue");
+//        box1.information();
+
+
+        boxPrice box1 = new boxPrice(2000);
         box1.information();
     }
 }

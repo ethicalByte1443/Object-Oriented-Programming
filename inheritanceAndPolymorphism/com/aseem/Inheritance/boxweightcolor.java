@@ -25,6 +25,5 @@ public class boxweightcolor extends boxWeight{
     public void information(){
         super.information();
         System.out.println("Color : "+ this.color);
-        System.out.println(" **************** ");
     }
 }
