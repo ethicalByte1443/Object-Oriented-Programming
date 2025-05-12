@@ -13,6 +13,11 @@ public class boxweightcolor extends boxWeight{
         this.color = color;
     }
 
+    public boxweightcolor(double side, double weight, String color){
+        super(side, weight);
+        this.color = color;
+    }
+
     public boxweightcolor(double l, double b, double h, double weight, String color){
         this.l = l;
         this.b = b;
@@ -26,4 +31,6 @@ public class boxweightcolor extends boxWeight{
         super.information();
         System.out.println("Color : "+ this.color);
     }
+
+
 }

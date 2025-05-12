@@ -23,6 +23,11 @@ public class boxPrice extends boxweightcolor{
         this.price = price;
     }
 
+    public boxPrice(double side, double weight, String color, double price){
+        super(side, weight, color);
+        this.price = price;
+    }
+
     public void information(){
         super.information();
         System.out.println("Price : "+ this.price);

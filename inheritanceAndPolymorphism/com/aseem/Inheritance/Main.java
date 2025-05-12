@@ -20,7 +20,7 @@ public class Main {
 //        box1.information();
 
 
-        boxPrice box1 = new boxPrice(2000);
+        boxPrice box1 = new boxPrice(5.0, 50.0, "blue", 5000);
         box1.information();
     }
 }

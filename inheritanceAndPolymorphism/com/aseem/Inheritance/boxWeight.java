@@ -8,7 +8,12 @@ public class boxWeight extends box{
         this.weight = -1;
     }
 
-    public boxWeight (double weight){
+    public boxWeight(double side, double weight){
+        super(side);
+        this.weight = weight;
+    }
+
+    public boxWeight(double weight){
         this.weight = weight;
     }
 
