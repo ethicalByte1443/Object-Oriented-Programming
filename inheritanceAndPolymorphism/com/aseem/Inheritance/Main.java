@@ -21,6 +21,11 @@ public class Main {
 
 
         boxPrice box1 = new boxPrice(5.0, 50.0, "blue", 5000);
-        box1.information();
+        boxPrice box2 = new boxPrice(5.0, 50.0, "blue", 5000);
+        boxPrice box3 = new boxPrice(5.0, 50.0, "blue", 5000);
+        boxPrice box4 = new boxPrice(5.0, 50.0, "blue", 5000);
+        boxPrice box5 = new boxPrice(5.0, 50.0, "blue", 5000);
+
+        System.out.println(boxPrice.count);
     }
 }
